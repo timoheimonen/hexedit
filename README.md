@@ -20,7 +20,7 @@
 - Secure handling: sensitive data is cleared from memory after processing.
 
 ## System Requirements
-- MacOs
+- macOS
 - Apple Silicon
 
 ## Installation and Compilation
