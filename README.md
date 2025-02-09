@@ -12,7 +12,7 @@
 
 ### Example:
 
-This example writes the binary value `0xDEADBEEF` to `input.bin` starting at byte 10 and saves the result to `output.bin`.
+'exedit -pos 150 -w "0020FF10aa" -r inputfile -o outputfile'
 
 ## Features
 - Supports up to 1000-character hexadecimal data input.
@@ -20,13 +20,13 @@ This example writes the binary value `0xDEADBEEF` to `input.bin` starting at byt
 - Secure handling: sensitive data is cleared from memory after processing.
 
 ## System Requirements
-- **C++11** or later
 - MacOs
 - Apple Silicon
 
 ## Installation and Compilation
 Compile the program with the following command: 
-clang++ -std=c++17 -target arm64-apple-macos12 -O3 -flto -mcpu=apple-m1 -o hexedit hexedit.cpp
+
+'clang++ -std=c++17 -target arm64-apple-macos12 -O3 -flto -mcpu=apple-m1 -o hexedit hexedit.cpp'
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
