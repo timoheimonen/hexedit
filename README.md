@@ -12,7 +12,7 @@
 
 ### Example:
 
-'exedit -pos 150 -w "0020FF10aa" -r inputfile -o outputfile'
+'hexedit -pos 150 -w "0020FF10aa" -r inputfile -o outputfile'
 
 ## Features
 - Supports up to 1000-character hexadecimal data input.
